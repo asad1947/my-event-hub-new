@@ -3,7 +3,7 @@ const { ContainerClient } = require("@azure/storage-blob");
 const { BlobCheckpointStore } = require("@azure/eventhubs-checkpointstore-blob");
 let process = require('process')
 
-const connectionString = process.env.CONNECTION_STRING
+const connectionString = process.env.HUB_CONNECTION_STRING
 const eventHubName = process.env.EVENT_HUB
 const consumerGroup = "$Default"; // name of the default consumer group
 const storageConnectionString = process.env.STORAGE_CONNECTION_STRING
