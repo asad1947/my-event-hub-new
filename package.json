@@ -5,7 +5,7 @@
   "main": "rcv.js",
   "scripts": {
     "start": "node index.js",
-    "receive": "rcv.js",
+    "receive": "node rcv.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
