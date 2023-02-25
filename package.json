@@ -1,0 +1,30 @@
+{
+  "name": "my-event-hub-new",
+  "version": "1.0.0",
+  "description": "",
+  "main": "rcv.js",
+  "scripts": {
+    "start": "node index.js",
+    "receive": "rcv.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asad1947/my-event-hub-new.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/asad1947/my-event-hub-new/issues"
+  },
+  "homepage": "https://github.com/asad1947/my-event-hub-new#readme",
+  "devDependencies": {
+    "@azure/event-hubs": "^5.8.0",
+    "@azure/eventhubs-checkpointstore-blob": "^1.0.1",
+    "@azure/storage-blob": "^12.13.0"
+  },
+  "dependencies": {
+    "@azure/identity": "^3.1.3"
+  }
+}
