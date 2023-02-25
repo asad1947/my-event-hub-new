@@ -1,7 +1,7 @@
 const { EventHubProducerClient } = require("@azure/event-hubs");
 let process = require('process')
 
-const connectionString = process.env.CONNECTION_STRING
+const connectionString = process.env.HUB_CONNECTION_STRING
 const eventHubName = process.env.EVENT_HUB
 
 async function main() {
